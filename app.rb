@@ -17,3 +17,5 @@ class App < Sinatra::Base
     when "multiply"
       (@num1 * @num2).to_s
     end 
+ end
+end 
